@@ -1,0 +1,20 @@
+{
+  "name": "12-column-grid",
+  "version": "1.0.0",
+  "description": "A 12 Column grid built with Sass",
+  "main": "index.js",
+  "scripts": {
+    "build-styles": "node-sass --include-path scss src/styles/style.scss public/css/style.css",
+    "watch": "nodemon -e scss -x \"npm run build-styles\""
+  },
+  "keywords": [
+    "node",
+    "sass"
+  ],
+  "author": "David Coy",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
